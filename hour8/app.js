@@ -35,9 +35,9 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => {
   const blogs = [
-    {title: 'Yoshi finds eggs', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-    {title: 'Mario finds stars', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-    {title: 'How to defeat bowser', snippet: 'Lorem ipsum dolor sit amet consectetur'},
+    {title: 'Kattappa kills Bahubali', snippet: 'Lorem ipsum dolor sit amet consectetur'},
+    {title: 'JD kills Bhavani', snippet: 'Lorem ipsum dolor sit amet consectetur'},
+    {title: 'Your lazyness kills your future', snippet: 'Lorem ipsum dolor sit amet consectetur'},
   ];
   res.render('index', { title: 'Home', blogs });
 });
